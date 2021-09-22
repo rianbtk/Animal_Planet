@@ -82,13 +82,13 @@
                                    <i class="fa fa-google-plus"></i>
                                 </a>
                                 <br><br><br>
-                                <!-- <a 
+                                <a 
                                 href="javascript:void(0)" 
                                 onclick="tampil_modal('<?php echo $get['id_product']?>')" 
                                 class="btn btn-block btn-primary">
                                     <i class="glyphicon glyphicon-shopping-cart"></i>
                                     Tambah Ke Keranjang
-                                </a> -->
+                                </a>
                                 <br><br>
                             </div>
                         </div>

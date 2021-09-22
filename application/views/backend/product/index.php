@@ -19,7 +19,7 @@
         </div>
         <?php echo form_open('update_state_product.aspx'); ?>
             <div class="row">
-                <div class="col-sm-6"> 
+                <div class="col-sm-6">
                     <div class="btn-group">
                         <a href="javascript:void(0)" onclick="get_add()" class="btn btn-info">
                             <i class="fa fa-plus"></i> Tambah
@@ -38,7 +38,7 @@
                 </div>
                 <div class="panel-body">
                     <div class="adv-table">
-                         <table class="display table table-bordered table-striped table-responsive">
+                        <table class="display table table-bordered table-striped table-responsive">
                             <thead>
                             <tr>
                                 <th>

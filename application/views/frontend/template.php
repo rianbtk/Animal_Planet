@@ -144,14 +144,8 @@
                </span>
                 <div class="navbar-collapse collapse">
                     <?php include "menu.php"; ?>
-                    <span id="keranjang">
-                        <?php 
-                            include "cart_mobile.php";
-                        ?>
-                    </span>
                 </div>
-            </div>
-            <?php include "search.php"; ?>
+        </div>
         </div>
         <?php 
             if (isset($slider_yes)) 

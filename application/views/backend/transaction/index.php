@@ -48,7 +48,7 @@
                                 <th>Waktu Belanja</th>
                                 <th>Total Belanja</th>
                                 <th>Status</th>
-                                <!-- <th><center>Opsi</center></th> -->
+                                <th><center>Opsi</center></th>
                             </tr>
                             </thead>
                             <tbody>
@@ -65,14 +65,12 @@
                                     <td><?php echo $row->time_transaction ?></td>
                                     <td>Rp.<?php echo uang($row->total_transaction) ?></td>
                                     <td><?php echo get_statetransaction($row->state) ?></td>
-                                    <!-- <td class="center hidden-phone">
-                                        <a href="javascript:void(0)" onclick="window.location.href='
-                                        <?php echo site_url('detail_transaction.aspx/'.$row->id_transaction)?>
-                                        '" class="btn btn-info btn-xs">
+                                    <td class="center hidden-phone">
+                                        <a href="javascript:void(0)" onclick="window.location.href='<?php echo site_url('detail_transaction.aspx/'.$row->id_transaction)?>'" class="btn btn-info btn-xs">
                                             <i class="fa fa-eye"></i> 
                                             <span class="hidden-xs"> Detail</span>
                                         </a>
-                                    </td> -->
+                                    </td>
                                 </tr>
                             <?php endforeach; ?>
                             </tbody>

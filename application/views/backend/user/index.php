@@ -94,8 +94,8 @@
                             <select name="level" required class="form-control">
                                 <option value="">Pilih Level</option>
                                 <option value="1">Superadmin</option>
-                                <option value="1">Admin</option>
-                                <option value="2">User</option>
+                                <option value="2">Admin</option>
+                                <option value="3">User</option>
                             </select>
                         </div>
                     </div>

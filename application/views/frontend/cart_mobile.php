@@ -7,6 +7,13 @@ $jumlah=array();
 ?>
 <div class="nav navbar-nav navbar-right hidden-xs">
     <div class="dropdown  cartMenu ">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+            <i class="fa fa-shopping-cart"> </i> 
+            <span class="cartRespons"> Keranjang (<?php echo uang(array_sum($jumlah)) ?>) </span>
+            <?php if (count($this->cart->contents())>0): ?>
+                <b class="caret"></b>
+            <?php endif ?>
+        </a>
         <?php if (count($this->cart->contents())!=0): ?>
         <div class="dropdown-menu col-lg-4 col-xs-12 col-md-4 ">
             <div class="w100 miniCartTable scroll-pane2" style="height: 280px;overflow-y: auto;">

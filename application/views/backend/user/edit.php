@@ -31,8 +31,8 @@
                             <select name="level" required class="form-control">
                                 <option value="">Pilih Level</option>
                                 <option value="1" <?php selected(1,$get['access_user']) ?>>Superadmin</option>
-                                <option value="1" <?php selected(1,$get['access_user']) ?>>Admin</option>
-                                <option value="2" <?php selected(2,$get['access_user']) ?>>User</option>
+                                <option value="2" <?php selected(2,$get['access_user']) ?>>Admin</option>
+                                <option value="3" <?php selected(3,$get['access_user']) ?>>User</option>
                             </select>
                         </div>
                     </div>

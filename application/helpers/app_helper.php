@@ -139,9 +139,13 @@ function get_level($level)
 	{
 		return "Superadmin";
 	}
-	else
+	else if ($level==2)
 	{
 		return "Admin";
+	}
+	else
+	{
+		return "User";
 	}
 }
 

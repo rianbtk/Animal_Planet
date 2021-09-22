@@ -19,7 +19,6 @@ class C__admin extends CI_Controller {
 		$data['product']     =$this->M__app->gradeone('product','state_product',1)->num_rows();
 		$data['category']    =$this->M__app->gradeone('category','state',1)->num_rows();
 		$data['transaction'] =$this->M__app->getdaytrans($tanggal)->num_rows();
-		$data['toko'] =$this->M__app->getdaytrans($tanggal)->num_rows();
 		$data['user']        =$this->M__app->gradeone_not_in('user','state_user',1)->num_rows();
 
 		$this->breadcrumb->append_crumb('Dashboard', site_url('myshop'));

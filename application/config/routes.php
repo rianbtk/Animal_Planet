@@ -165,15 +165,6 @@ $route['filter_transaction.aspx']       = 'C__transaction/filter_transaction';
 $route['filter_transaction.aspx/(:any)']= 'C__transaction/filter_transaction/$1';
 $route['send.aspx']                     = 'C__transaction/send';
 $route['print.aspx/(:any)'] 			= 'C__transaction/print_transaction/$1';
-//TransaksiToko
-$route['toko.aspx']              = 'C__toko/index';
-$route['toko.aspx/(:any)'] 		= 'C__toko/index/$1';
-$route['detail_toko.aspx/(:any)']= 'C__toko/view_detail_toko/$1';
-$route['update_state_toko.aspx'] = 'C__toko/update_state';
-$route['filter_toko.aspx']       = 'C__toko/filter_toko';
-$route['filter_toko.aspx/(:any)']= 'C__toko/filter_toko/$1';
-$route['send.aspx']                     = 'C__toko/send';
-$route['print.aspx/(:any)'] 			= 'C__toko/print_toko/$1';
 //Testimoni
 $route['testimoni.aspx']                = 'C__testimoni';
 $route['testimoni.aspx/(:any)'] 	  	= 'C__testimoni/index/$1';

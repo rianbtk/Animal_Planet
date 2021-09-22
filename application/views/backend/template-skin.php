@@ -44,8 +44,10 @@
                                         <?php $level=getuser('access_user'); 
                                         if($level==1){
                                             echo "Superadmin";
-                                        }else{
+                                        }else if($level==2){
                                             echo "Admin";
+                                        }else {
+                                            echo "User";
                                         }?>
                                     </a>
                                 </h4>
@@ -55,8 +57,10 @@
                     <?php 
                     if(getuser('access_user')==1){
                         include "menu_super.php";
-                    }else{
+                    }else if (getuser('access_user')==2){
                         include "menu_admin.php";
+                    }else {
+                        include "menu_user";
                     }
                     ?>
                 </div>
@@ -69,7 +73,12 @@
                             <li>
                                 <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                                     <?php echo getuser('name_user') ?> <?php $level=getuser('access_user') ;
-                                    if($level==1){echo "Superadmin";}else{echo "Admin";}
+                                    if($level==1){echo "Superadmin";
+                                    }
+                                    else if($level==2){echo "Admin";
+                                    }
+                                    else {echo "User";
+                                    }
                                     ?>
                                     <span class="caret"></span>
                                 </a>

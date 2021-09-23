@@ -44,11 +44,11 @@
                                         <?php $level=getuser('access_user'); 
                                         if($level==1){
                                             echo "Superadmin";
-                                        }else if($level==2){
+                                        }else
+                                        {
                                             echo "Admin";
-                                        }else {
-                                            echo "User";
-                                        }?>
+                                        }
+                                        ?>
                                     </a>
                                 </h4>
                             </div>
@@ -57,10 +57,8 @@
                     <?php 
                     if(getuser('access_user')==1){
                         include "menu_super.php";
-                    }else if (getuser('access_user')==2){
+                    }else{
                         include "menu_admin.php";
-                    }else {
-                        include "menu_user";
                     }
                     ?>
                 </div>
@@ -75,9 +73,9 @@
                                     <?php echo getuser('name_user') ?> <?php $level=getuser('access_user') ;
                                     if($level==1){echo "Superadmin";
                                     }
-                                    else if($level==2){echo "Admin";
-                                    }
-                                    else {echo "User";
+                                    else
+                                    {
+                                        echo "Admin";
                                     }
                                     ?>
                                     <span class="caret"></span>

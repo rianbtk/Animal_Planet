@@ -50,6 +50,8 @@ function in_access()
 	$ci=& get_instance();
 	if($ci->session->userdata('myAqua'))
 	{
+		// Tambahkan Akses menu untuk user setelah register disini
+		// If else
 		redirect('myshop.aspx');
 	}
 }
@@ -139,13 +141,9 @@ function get_level($level)
 	{
 		return "Superadmin";
 	}
-	else if ($level==2)
-	{
-		return "Admin";
-	}
 	else
 	{
-		return "User";
+		return "Admin";
 	}
 }
 
@@ -252,6 +250,7 @@ function access($access)
     $level=getuser('access_user');
     if($level!=$access)
     {
+		// Tambah akses user
     	redirect('myshop.aspx');
     	$ci->session->set_flashdata('error','Maaf Anda Tidak Memiliki Akses Halaman Ini');
     }

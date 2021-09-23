@@ -49,12 +49,9 @@
                                         {
                                             echo "Superadmin";
                                         }
-                                        else if ($level==2)
+                                        else
                                         {
                                             echo "Admin";
-                                        }
-                                        else {
-                                            echo "User";
                                         }
                                         ?>
                                     </a>
@@ -67,12 +64,9 @@
                     {
                         include "menu_super.php";
                     }
-                    else if (getuser('acces_user')==2)
+                    else
                     {
                         include "menu_admin.php";
-                    }
-                    else {
-                        include 'menu_user';
                     }
                     ?>
                 </div>
@@ -89,12 +83,9 @@
                                     {
                                         echo "Superadmin";
                                     }
-                                    else if($level==2)
+                                    else
                                     {
                                         echo "Admin";
-                                    }
-                                    else {
-                                        echo 'User';
                                     }
                                     ?>
                                     <span class="caret"></span>

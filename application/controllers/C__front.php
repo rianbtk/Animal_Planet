@@ -30,7 +30,7 @@ class C__front extends CI_Controller {
 		$data['slider']     =$this->M__app->getdata('slider')->result();
 		$data['slider_yes'] =1;
 		$data['page']       =halaman($jumlah,'shop.aspx',2);
-
+		//Tambah Menu User disini
 		$this->load->view('frontend/template',$data);
 	}
 
@@ -137,6 +137,9 @@ class C__front extends CI_Controller {
 	public function login()
 	{
 		in_access();
+		// Tambah login Admin User disendirikan
+		// User Login + Register
+		// Admin Login
 		$this->load->view('frontend/login.php');
 	}
 
@@ -158,6 +161,7 @@ class C__front extends CI_Controller {
 			$this->session->set_userdata($data);
 			create_sess_kcfinder();
 			$this->session->set_flashdata('success','Selamat Datang <strong> '.getuser('name_user').' </strong>');
+			// Tambahkan di sini Untuk perulangan login sesuai level
 			redirect('myshop.aspx');
 		}
 		else

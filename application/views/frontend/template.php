@@ -28,9 +28,9 @@
             paceOptions = {
                 elements: true
             };
-            :root{
-                overflow-x:hidden;
-            }
+            // root = {
+            //     overflow-x : hidden
+            // }
         </script>
         <style>
             
@@ -143,7 +143,11 @@
                    ?>
                </span>
                 <div class="navbar-collapse collapse">
-                    <?php include "menu.php"; ?>
+                    <?php include "menu_user.php"; ?>
+                    <span id="keranjang" position="relative">
+                        <?php include "cart_mobile.php";?>
+                        <?php include "search.php"; ?>
+                    </span>
                 </div>
         </div>
         </div>

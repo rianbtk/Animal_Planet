@@ -51,8 +51,4 @@
     <li class="<?php echo active($active,'auth') ?>">
         <a href="<?php echo site_url()?>auth.aspx" class="soft">Login</a>
     </li>
-    <span id="keranjang" position="relative">
-        <?php include "cart_mobile.php";?>
-        <?php include "search.php"; ?>
-    </span>
 </ul>

@@ -139,7 +139,7 @@
                 <span id="keranjangKecil">
                    <?php 
                         include "total_cart.php"; 
-                        include "cart.php";
+                       include "cart.php";
                    ?>
                </span>
                 <div class="navbar-collapse collapse">

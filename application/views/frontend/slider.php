@@ -41,7 +41,8 @@
     <div style="margin-left: 20px;margin-right: 20px;">
         <h3>
             <br>
-            <b>Produk Terbaru</b>
+            <b>New Update</b>
+            <a id="nextBr</b>
             <a id="nextBrand" class="link pull-right carousel-nav">
                 <i class="fa fa-angle-right"></i>
             </a>

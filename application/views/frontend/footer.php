@@ -8,7 +8,7 @@
     }
 </style>
 <footer>
-    <div class="footer" style="background-color: #fff; padding:20px; ">
+    <div class="footer" style="background-color: #F0FFF0; padding:20px; ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">

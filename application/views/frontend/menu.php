@@ -32,6 +32,9 @@
                     <li class="<?php echo active($active,'how') ?>">
                         <a href="<?php echo site_url()?>howtobuy.aspx">Cara Pembelian</a>
                     </li>
+                    <li class="<?php echo active($active,'how') ?>">
+                        <a href="<?php echo site_url()?>howtojoin.aspx">Cara ergabung</a>
+                    </li>
                     <li class="<?php echo active($active,'about') ?>">
                         <a href="<?php echo site_url()?>aboutus.aspx">Tentang Kami</a>
                     </li>

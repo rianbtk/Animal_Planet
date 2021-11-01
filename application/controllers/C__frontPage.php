@@ -86,6 +86,20 @@ class C__frontPage extends CI_Controller {
 
 		$this->load->view('frontend/template',$data);
 	}
+	public function howtojoin()
+	{
+		$data['title']    ="Cara Bergabung";
+		$data['active']   ="page";
+		$data['content']  ='page/howtojoin.php';
+		$data['category'] =$this->M__app->gradeone('category','state',3)->result();
+		$data['bank']     =$this->M__app->getdatapaymentfront()->result();
+		$data['page']     =$this->M__app->getdata('page')->row_array();
+
+		$this->breadcrumb->append_crumb('Beranda', site_url());
+		$this->breadcrumb->append_crumb('Cara Gabung', site_url());
+
+		$this->load->view('frontend/template',$data);
+	}
 
 	public function about()
 	{

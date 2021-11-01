@@ -79,6 +79,9 @@
                             <a href="<?php echo site_url('howtobuy.aspx') ?>"> Cara Pembelian</a>
                         </li>
                         <li class="supportLi">
+                            <a href="<?php echo site_url('howtojoin.aspx') ?>"> Cara Bergabung</a>
+                        </li>
+                        <li class="supportLi">
                             <a href="<?php echo site_url('ongkir.aspx') ?>"> Cek Ongkir</a>
                         </li>
                         <li class="supportLi">

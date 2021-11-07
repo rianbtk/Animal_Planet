@@ -18,7 +18,7 @@
             </li>
             <li class="<?php echo active($active,'product') ?>">
                 <a href="<?php echo site_url()?>product.aspx">
-                    <i class="fa fa-archive"></i> Produk
+                    <i class="fa fa-archive"></i> Data
                 </a>
             </li>
             <li class="<?php echo active($active,'bank') ?>">

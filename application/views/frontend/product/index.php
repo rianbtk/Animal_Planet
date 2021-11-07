@@ -9,7 +9,7 @@
             <hr>
         </div>
         <div >
-            <?php if(count($all)==0){echo "<div class='item col-md-12'><center><b>Belum ada produk tersedia...</b></center><br><br></div>";} ?>
+            <?php if(count($all)==0){echo "<div class='item col-md-12'><center><b>Belum tersedia...</b></center><br><br></div>";} ?>
             <div class="row">
                  <?php $no=0; foreach($all as $row): $no++ ?>
                     <div class="item col-lg-2 col-md-3 col-sm-4 col-xs-6" style="float: left;">

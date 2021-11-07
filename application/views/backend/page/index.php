@@ -9,6 +9,11 @@
                          Cara Pembelian
                         </a>
                     </li>
+                    <li class="<?php if($tabActive=='3'){echo 'active';} ?>">
+                        <a href="#join-3" data-toggle="tab">
+                         Cara Bergabung
+                        </a>
+                    </li>
                     <li class="<?php if($tabActive=='2'){echo 'active';} ?>">
                         <a href="#about-3" data-toggle="tab">
                         Tentang Kami
@@ -42,6 +47,20 @@
                                         </div>
                                     </div>
                                     <center><button class="btn btn-primary"> Perbarui Halaman Tentang Kami</button></center>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane <?php if($tabActive=='3'){echo 'active';} ?>" id="join-3">
+                        <div class="row">
+                            <div class="form">
+                                <form action="<?php echo site_url('update_join.aspx') ?>" method="post" class="form-horizontal">
+                                    <div class="form-group">
+                                        <div class="col-sm-12">
+                                            <textarea class="form-control ckeditor" name="how" rows="6"><?php echo $get['how_to_join'] ?></textarea>
+                                        </div>
+                                    </div>
+                                    <center><button class="btn btn-primary"> Perbarui Halaman Cara Bergabung</button></center>
                                 </form>
                             </div>
                         </div>

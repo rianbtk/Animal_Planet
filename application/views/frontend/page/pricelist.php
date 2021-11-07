@@ -9,7 +9,7 @@
                    <table class="table table-bordered table-responsive" style="width:100%">
                         <thead>
                             <tr class="CartProduct cartTableHeader">
-                                <th style="width:15%">Produk</th>
+                                <th style="width:15%">List</th>
                                 <th style="width:40%">Nama</th>
                                 <th style="width:10%">Harga</th>
                             </tr>

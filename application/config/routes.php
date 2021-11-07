@@ -86,6 +86,7 @@ $route['uploadFixEdit.aspx']            = 'C__fronts/uploadFixEdit';
 $route['fix.aspx/(:any)'] 				= 'C__fronts/fix/$1';
 //Frontened Page
 $route['howtobuy.aspx']                 = 'C__frontPage/howtobuy';
+$route['howtojoin.aspx']                 = 'C__frontPage/howtojoin';
 $route['testimony.aspx']                = 'C__frontPage/testimony';
 $route['moreTestimony.aspx']            = 'C__frontPage/moreTestimony';
 $route['submitTestimony.aspx']          = 'C__frontPage/submitTestimony';
@@ -152,6 +153,7 @@ $route['page.aspx']                     = 'C__page';
 $route['page.aspx/(:any)'] 				= 'C__page/index/$1';
 $route['update_about.aspx']             = 'C__page/updateabout';
 $route['update_buy.aspx']               = 'C__page/updatebuy';
+$route['update_join.aspx']              = 'C__page/updatejoin';
 //Slider
 $route['slider.aspx']                   = 'C__slider';
 $route['add_slider.aspx']               = 'C__slider/add';

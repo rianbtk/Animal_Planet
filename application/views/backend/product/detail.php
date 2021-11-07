@@ -3,16 +3,16 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-                <h4 class="modal-title">Detail Data Produk <?php echo $get['name_product'] ?></h4>
+                <h4 class="modal-title">Detail Data Hewan <?php echo $get['name_product'] ?></h4>
             </div>
             <div class="modal-body" style="height: 450px;overflow-y: scroll;">
                 <table class="table table-bordered">
                     <tr>
-                        <th>Nama Produk</th>
+                        <th>Nama Hewan</th>
                         <td><?php echo $get['name_product'] ?></td>
                     </tr>
                     <tr>
-                        <th>Keterangan Produk</th>
+                        <th>Keterangan Hewan</th>
                         <td><?php echo $get['information_product'] ?></td>
                     </tr>
                     <tr>
@@ -43,7 +43,7 @@
                         <td><?php echo $cat['category'] ?></td>
                     </tr>
                     <tr>
-                        <th> Gambar Produk</th>
+                        <th> Gambar Hewan</th>
                         <td><img src="<?php echo base_url('uploads/'.$get['image_product']) ?>" width="185px" height="280px;"></td>
                     </tr>
                 </table>

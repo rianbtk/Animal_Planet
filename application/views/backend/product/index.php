@@ -6,7 +6,7 @@
                 <div class="panel-heading accordion-toggle" style="cursor: pointer;" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                     <h4 class="panel-title">
                         <a>
-                            Filter Produk
+                            Filter Hewan
                         </a>
                     </h4>
                 </div>
@@ -34,7 +34,7 @@
             <?php alert() ?>
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <div class="panel-title">Produk</div>
+                    <div class="panel-title">Hewan</div>
                 </div>
                 <div class="panel-body">
                     <div class="adv-table">
@@ -151,20 +151,20 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-                <h4 class="modal-title">Tambah Data Produk</h4>
+                <h4 class="modal-title">Tambah Data Hewan</h4>
             </div>
             <?php echo form_open_multipart('add_product.aspx','class="form-horizontal"'); ?>
                 <div class="modal-body" style="height: 450px;overflow-y: scroll;">
                     <div class="form-group">
-                        <label class="col-sm-4">Nama Produk</label>
+                        <label class="col-sm-4">Nama Hewan</label>
                         <div class="col-sm-8">
-                            <input type="text" required placeholder="Masukkan Nama Produk" onkeyup="writeSlug($(this).val())" autocomplete="off" maxlength="30" class="form-control" name="product">
+                            <input type="text" required placeholder="Masukkan Nama Hewan" onkeyup="writeSlug($(this).val())" autocomplete="off" maxlength="30" class="form-control" name="product">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-4">Keterangan Produk</label>
+                        <label class="col-sm-4">Keterangan Hewan</label>
                         <div class="col-sm-8">
-                            <textarea name="information" rows="5" placeholder="Masukkan Keterangan Produk" required class="form-control"></textarea>
+                            <textarea name="information" rows="5" placeholder="Masukkan Keterangan Hewan" required class="form-control"></textarea>
                         </div>
                     </div>
                     <div class="form-group">
@@ -231,7 +231,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-4">Gambar Produk</label>
+                        <label class="col-sm-4">Gambar Hewan</label>
                         <div class="col-sm-8">
                             <input type="file" required  autocomplete="off" accept="image/jpeg,image/png" class="form-control" name="picture">
                             <br>

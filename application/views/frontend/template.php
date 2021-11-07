@@ -28,9 +28,6 @@
             paceOptions = {
                 elements: true
             };
-            :root{
-                overflow-x:hidden;
-            }
         </script>
         <style>
             

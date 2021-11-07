@@ -1,9 +1,9 @@
 <form action="<?php echo site_url('filter_product.aspx') ?>" class="form-horizontal" method="post">
     <?php echo form_hidden('search', '1'); ?>
     <div class="form-group">
-        <label class="col-sm-4">Nama Produk</label>
+        <label class="col-sm-4">Nama Hewan</label>
         <div class="col-sm-8">
-            <input type="text" placeholder="Masukkan Nama Produk" autocomplete="off" maxlength="30" class="form-control" name="product" value="<?php echo $this->session->userdata('product'); ?>">
+            <input type="text" placeholder="Masukkan Nama Hewan" autocomplete="off" maxlength="30" class="form-control" name="product" value="<?php echo $this->session->userdata('product'); ?>">
         </div>
     </div>
     <div class="form-group">

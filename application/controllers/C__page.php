@@ -34,6 +34,17 @@ class C__page extends CI_Controller {
 			$this->session->set_flashdata('success','Data Halaman Berhasil Di Perbarui');
 			redirect('page.aspx');
 	}
+	
+	public function updatejoin()
+	{
+
+			$data=array(
+				"how_to_join"=>$this->input->post('how'),
+			);
+			$this->M__app->update_setting('page',$data);
+			$this->session->set_flashdata('success','Data Halaman Berhasil Di Perbarui');
+			redirect('page.aspx');
+	}
 
 	public function updateabout()
 	{

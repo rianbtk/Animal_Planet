@@ -283,7 +283,7 @@
                                                 <td class="price"><?php echo array_sum($berat) ?> gram</td>
                                             </tr>
                                             <tr class="CartProduct">
-                                                <td><h4>TOTAL HARGA PRODUK</h4></td>
+                                                <td><h4>TOTAL HARGA</h4></td>
                                                 <td class="price">Rp.<?php echo uang(array_sum($jumlah)) ?></td>
                                             </tr>
                                             <tr class="CartProduct">

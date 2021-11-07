@@ -13,6 +13,7 @@
   width: 100%;
   z-index: 15;
 }
+#right{float:right;width:300px;}
 .overly-mask.is-visible {
   cursor: pointer;
   opacity: 0.25;

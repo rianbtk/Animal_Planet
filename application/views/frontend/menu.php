@@ -20,7 +20,7 @@
             <?php if(count($category)==0){echo "<center><b>Belum ada kategori tersedia...</b></center><br><br>";} ?>
         </ul>
     </li>
-    <li class="<?php echo active($active,'pricelist') ?>">
+    <!-- <li class="<?php echo active($active,'pricelist') ?>">
         <a href="<?php echo site_url()?>pricelist.aspx" class="soft">Daftar Harga</a>
     </li>
     <li class="dropdown <?php echo active($active,'page') ?>">
@@ -32,9 +32,6 @@
                     <li class="<?php echo active($active,'how') ?>">
                         <a href="<?php echo site_url()?>howtobuy.aspx">Cara Pembelian</a>
                     </li>
-                    <li class="<?php echo active($active,'how') ?>">
-                        <a href="<?php echo site_url()?>howtojoin.aspx">Cara ergabung</a>
-                    </li>
                     <li class="<?php echo active($active,'about') ?>">
                         <a href="<?php echo site_url()?>aboutus.aspx">Tentang Kami</a>
                     </li>
@@ -44,7 +41,7 @@
                 </ul>
             </li>
         </ul>
-    </li>
+    </li> -->
     <li class="<?php echo active($active,'auth') ?>">
         <a href="<?php echo site_url()?>auth.aspx" class="soft">Login</a>
     </li>

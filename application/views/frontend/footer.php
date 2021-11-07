@@ -8,7 +8,7 @@
     }
 </style>
 <footer>
-    <div class="footer" style="background-color: #F0FFF0; padding:20px; ">
+    <div class="footer" style="background-color: #fff; padding:20px; ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -77,9 +77,6 @@
                     <ul>
                         <li class="supportLi">
                             <a href="<?php echo site_url('howtobuy.aspx') ?>"> Cara Pembelian</a>
-                        </li>
-                        <li class="supportLi">
-                            <a href="<?php echo site_url('howtojoin.aspx') ?>"> Cara Bergabung</a>
                         </li>
                         <li class="supportLi">
                             <a href="<?php echo site_url('ongkir.aspx') ?>"> Cek Ongkir</a>

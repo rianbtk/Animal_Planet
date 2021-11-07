@@ -3,7 +3,7 @@
         <div class="col-lg-12">
             <center>
                 <h1 class="title-big text-center section-title-style2">
-                    <span>Hewan Terbaru</span>
+                    <span>HEWAN PILIHAN ANET</span>
                 </h1>
             </center>
             <hr>

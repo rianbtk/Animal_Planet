@@ -2,7 +2,7 @@
     <div class="width100 section-block">
         <h3 class="section-title">
             <br>
-            <b>New Update</b>
+            <b>HEWAN TERBARU</b>
             <a id="nextBrand" class="link pull-right carousel-nav"> 
                 <i class="fa fa-angle-right"></i>
             </a> 

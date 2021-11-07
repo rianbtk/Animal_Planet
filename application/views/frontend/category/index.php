@@ -5,7 +5,7 @@
                 <h1>
                     <span>
                         <b>
-                            HEWAN BERKATEGORI <?php echo strtoupper($get['category']) ?>
+                            PRODUK BERKATEGORI <?php echo strtoupper($get['category']) ?>
                         </b>
                     </span>
                 </h1>
@@ -68,17 +68,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="action-control">
-                                <center>
-                                    <a href="javascript:void(0)" onclick="tampil_modal('<?php echo $row->id_product ?>')" style="width:80%;" class="btn btn-primary btn-md">
-                                        <span class="add2cart">
-                                            <i class="glyphicon glyphicon-shopping-cart"></i>
-                                            <span class="hidden-xs"></span>
-                                        </span>
-                                    </a>
-                                </center>
-                            </div>
-                        </div>
                     </div>
                 <?php endforeach; ?>
                 <hr>   

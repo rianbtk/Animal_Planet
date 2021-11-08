@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 08, 2021 at 10:07 AM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.9
+-- Generation Time: Nov 08, 2021 at 10:27 AM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 7.3.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -75,7 +75,22 @@ INSERT INTO `shop_product` (`id_product`, `name_product`, `information_product`,
 (99, 'Maine coon Kitten', 'Maine coon adalah salah satu ras kucing tertua dan alami yang berasal dari Maine, Amerika Serikat. Ras ini dipercayai nenek moyangnya berasal dari ras anggora dan kucing hutan norwegia', 1200000, 0, 2000, 14, 2, 'Produk2021-11-08-15-55-56.png', 'maine_coon_kitten', 1, 0),
 (100, 'Maine coon Dewasa', 'Maine coon adalah salah satu ras kucing tertua dan alami yang berasal dari Maine, Amerika Serikat. Ras ini dipercayai nenek moyangnya berasal dari ras anggora dan kucing hutan norwegia', 5500000, 5000000, 6000, 14, 1, 'Produk2021-11-08-15-56-40.png', 'maine_coon_dewasa', 1, 1),
 (101, 'Gold British Shorthair Dewasa', 'British Shorthair adalah kucing berukuran sedang dengan bulu khas yang halus. Mereka kucing yang santai dan mudah untuk dirawat, dan juga mereka adalah salah satu ras kucing yang sangat mandiri. Orang-orang akan sangat menyukainya karena tampilan mereka sangat menggemaskan, namun British Shorthairs sebenarnya memiliki tubuh yang gagah dan kuat', 22000000, 20000000, 4000, 14, 1, 'Produk2021-11-08-16-00-07.png', 'gold_british_shorthair_dewasa', 1, 1),
-(102, 'Gold British Shorthair Kitten', 'British Shorthair adalah kucing berukuran sedang dengan bulu khas yang halus. Mereka kucing yang santai dan mudah untuk dirawat, dan juga mereka adalah salah satu ras kucing yang sangat mandiri. Orang-orang akan sangat menyukainya karena tampilan mereka sangat menggemaskan, namun British Shorthairs sebenarnya memiliki tubuh yang gagah dan kuat', 8000000, 0, 1400, 14, 1, 'Produk2021-11-08-16-00-59.png', 'gold_british_shorthair_kitten', 1, 0);
+(102, 'Gold British Shorthair Kitten', 'British Shorthair adalah kucing berukuran sedang dengan bulu khas yang halus. Mereka kucing yang santai dan mudah untuk dirawat, dan juga mereka adalah salah satu ras kucing yang sangat mandiri. Orang-orang akan sangat menyukainya karena tampilan mereka sangat menggemaskan, namun British Shorthairs sebenarnya memiliki tubuh yang gagah dan kuat', 8000000, 0, 1400, 14, 1, 'Produk2021-11-08-16-00-59.png', 'gold_british_shorthair_kitten', 1, 0),
+(103, 'Arwana Brazil', 'umur 2 tahun', 2200000, 2100000, 2000, 12, 1, 'Produk2021-11-08-16-08-50.png', 'arwana_brazil', 1, 1),
+(104, 'Arwana Banjar', 'anakan', 600000, 0, 1000, 12, 3, 'Produk2021-11-08-16-09-59.png', 'arwana_banjar', 1, 0),
+(105, 'Arwana Red Tail Golden', 'umur 1 tahun', 5000000, 4750000, 3000, 12, 1, 'Produk2021-11-08-16-10-53.png', 'arwana_red_tail_golden', 1, 1),
+(106, 'Cupang Halfmoon', 'ciri khas ikan cupang yang satu ini memiliki sirip dan ekor yang seolah-olah menyatu dan <br />\r\nmembentuk setengah lingkaran', 80000, 0, 300, 12, 1, 'Produk2021-11-08-16-13-04.png', 'cupang_halfmoon', 1, 0),
+(107, 'Cupang Crown Tail', 'Dinamakan Crown Tail atau ‘ekor mahkota’ karena ekornya yang akan membentuk seperti mahkota ketika dibalik', 300000, 0, 250, 12, 2, 'Produk2021-11-08-16-14-21.png', 'cupang_crown_tail', 1, 0),
+(108, 'Cupang Double Tail', 'Cupang Double Tail yang ekornya bercabang dua ini sangat indah karena siripnya yang lebar', 150000, 0, 200, 12, 1, 'Produk2021-11-08-16-15-21.png', 'cupang_double_tail', 1, 0),
+(109, 'Cupang HMPK', 'Nama ikan cupang ini sendiri berasal dari singkatan hasil perkembangbiakan antara cupang Halfmoon dan Plakat', 300000, 189000, 225, 12, 1, 'Produk2021-11-08-16-16-19.png', 'cupang_hmpk', 1, 1),
+(110, 'Louhan Cencu', 'Yang pertama ada jenis ikan Louhan Cencu. Ikan ini merupakan salah satu jenis ikan louhan lokal, lho. Karakteristiknya yaitu memiliki pola bintik pada tubuhnya. Louhan Cencu juga cenderung memiliki warna merah pada bagian tubuh hingga tengah badannya, lalu berwarna kuning keemasan dari tengah tubuh hingga ekornya.', 700000, 0, 600, 12, 1, 'Produk2021-11-08-16-17-30.png', 'louhan_cencu', 1, 0),
+(111, 'Louhan SRD', 'Ikan Louhan SRD atau yang memiliki nama panjang Super Red Dragon ini memiliki jenong yang besar, bahkan bisa dikatakan paling besar diantara yang lain. Ciri-cirinya yaitu memiliki warna merah pada bagian kepalanya dan cenderung berwarna perak dari bagian tengah tubuh hingga ekor.', 500000, 475000, 400, 12, 1, 'Produk2021-11-08-16-18-18.png', 'louhan_srd', 1, 1),
+(112, 'Louhan Super Red Magma', 'ouhan SRM atau Super Red Magma ini memiliki kualitas yang lebih unggul dari SRD. Jenong ikan louhan ini lebih besar dan mutiara pada tubuhnya lebih baik jika dibandingkan dengan Louhan SRD.', 800000, 600000, 425, 12, 1, 'Produk2021-11-08-16-19-21.png', 'louhan_super_red_magma', 1, 1),
+(113, 'Koi Tancho', 'Ikan koi Tanco biasanya memiliki warna dasar putih dan terdapat buletan jingga pada kepalanya', 800000, 0, 500, 12, 1, 'Produk2021-11-08-16-20-25.png', 'ikan_koi_tancho', 1, 0),
+(114, 'Koi Shiro Utsuri', 'Dari warnanya saja sudah terlihat ciri khas dari ikan koi ini adalah warna dasar putih pada badannya dan terdapat bercak – bercak hitam', 700000, 0, 400, 12, 1, 'Produk2021-11-08-16-21-24.png', 'koi_shiro_utsuri', 1, 0),
+(115, 'Koi Ki Utsuri', 'Ikan koi jenis ini memiliki ciri khas warna dasar tubuh yang jingga kekuningan dan terdapat bercak hitam', 500000, 0, 300, 12, 1, 'Produk2021-11-08-16-22-11.png', 'koi_ki_utsuri', 1, 0),
+(116, 'Channa Barca', 'Jenis ikan channa ini dikenal karena memiliki corak yang khas. Selain itu, sirip yang melebar ke atas menjadi daya tarik ikan ini', 1000000, 0, 500, 12, 1, 'Produk2021-11-08-16-23-22.png', 'channa_barca', 1, 0),
+(117, 'Channa Diplogramma', 'Sekilas, jenis ikan gabus ini mirip dengan micropletes, hanya memiliki motif yang berbeda dan warna yang sedikit lebih gelap.', 700000, 0, 400, 12, 1, 'Produk2021-11-08-16-25-15.png', 'channa_diplogramma', 1, 0);
 
 --
 -- Indexes for dumped tables
@@ -95,7 +110,7 @@ ALTER TABLE `shop_product`
 -- AUTO_INCREMENT for table `shop_product`
 --
 ALTER TABLE `shop_product`
-  MODIFY `id_product` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=103;
+  MODIFY `id_product` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=118;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

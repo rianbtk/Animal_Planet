@@ -5,7 +5,7 @@
                 <h1>
                     <span>
                         <b>
-                            PRODUK BERKATEGORI <?php echo strtoupper($get['category']) ?>
+                           DAFTAR <?php echo strtoupper($get['category']) ?>
                         </b>
                     </span>
                 </h1>

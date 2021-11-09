@@ -503,12 +503,12 @@ function email_config()
 	$ci=& get_instance();
 	$config = Array(
       'protocol' => 'smtp',
-	  'charset' => 'iso-8859-1',
+	//   'charset' => 'iso-8859-1',
 	  'smtp_host' => 'ssl://smtp.googlemail.com',
 	  'smtp_port' => 465,
 	  'smtp_user' => 'mrprobojonegoro@gmail.com',
 	  'smtp_pass' => 'asaha15123',
-	  'mailtype'  => 'html', 'text',
+	  'mailtype'  => 'html',
     );
     $ci->load->library('email', $config);
     return $ci->email->initialize($config);
@@ -516,7 +516,7 @@ function email_config()
 
 function email_name()
 {
-	return 'gusalim04@gmail.com';
+	return 'mrprobojonegoro@gmail.com';
 }
 
 function getoption($value='')

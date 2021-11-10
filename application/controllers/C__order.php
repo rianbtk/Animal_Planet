@@ -267,7 +267,7 @@ class C__order extends CI_Controller {
 			        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 			        <br>
 			        <h1>Selamat Pesanan Anda Berhasil Dilakukan!</h1>
-					<b>Mohon segera mengunggah bukti pembayaran anda ke menu <b><a href="'.site_url('order.aspx').'">Cek Pesanan</a></b> agar kami segera memproses pesanan anda, bila ada kesulitan silahkan hubungi kontak kami.<b><a href="'.site_url('https://api.whatsapp.com/send?phone=6281903498463').'">WhatsApp</a></b></b>
+					<b>Mohon segera mengunggah bukti pembayaran anda ke menu <b><a href="'.site_url('order.aspx').'">Cek Pesanan</a></b> agar kami segera memproses pesanan anda, bila ada kesulitan silahkan hubungi kontak kami.<b><a href="https://api.whatsapp.com/send?phone=6281903498463">WhatsApp</a></b></b>
 					<br>
 					<br>
 					Dengan data pemesanan sebagai Berikut <br>

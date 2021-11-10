@@ -135,12 +135,6 @@
                                                 <select required onchange="tampil_data('data')" class="form-control" name="courier" id="courier">
                                                     <option value="">Pilih Kurir</option>
                                                     <?php 
-                                                    if(gettoko('pos')==1)
-                                                    {
-                                                       $val[]='<option value="pos">POS</option>';
-                                                    } 
-                                                    ?>
-                                                    <?php 
                                                     if(gettoko('jne')==1)
                                                     {
                                                        $val[]='<option value="jne">JNE</option>';
@@ -299,6 +293,25 @@
                                 <button id="pesan" onclick="kirim()" type="button" class="btn btn-primary btn-lg btn-block" style="margin-bottom:20px"> Lakukan Pemesanan &nbsp;
                                     <i class="fa fa-arrow-right"></i>
                                 </button>
+                            </div>
+                            <div class="fa fa-degrs">
+                                <br>
+                                <br>
+                                <p><b>NOTE</b></p>
+                                <br> 
+                                <p>
+                                    <b>TIKI</b>
+                                    <br>
+                                    Hanya melayani pengiriman jenis ikan saja (ikan cupang, ikan hias, koi, dll). Untuk hewan lainnya sementara ini belum melayani
+                                </p>
+                                <br>
+                                <br>
+                                <p>
+                                    <b>JNE</b>
+                                    <br>
+                                    Melayani pengiriman hewan hidup seperti ikan, burung, kucing, reptil dan lainnya. Tetapi ada beberapa persyaratan penting yang harus dipenuhi. Antara lain ada surat dari karantina hewan, makanan dan minuman dalam kandang harus sudah tersedia. Juga ada tambahan biaya lainnya yang bisa ditanyakan saat pengiriman hewan tsb.<br />
+
+                                </p>
                             </div>
                         </div>
                     </div>

@@ -20,6 +20,12 @@
             <?php if(count($category)==0){echo "<center><b>Belum ada kategori tersedia...</b></center><br><br>";} ?>
         </ul>
     </li>
+    <li class="<?php echo active($active,'order') ?>">
+        <a href="<?php echo site_url()?>order.aspx" class="soft">Cek Pesanan</a>
+    </li>
+    <li class="<?php echo active($active,'ongkir') ?>">
+        <a href="<?php echo site_url() ?>ongkir.aspx" class="soft">Cek Ongkir</a>
+    </li>
     <li class="<?php echo active($active,'pricelist') ?>">
         <a href="<?php echo site_url()?>pricelist.aspx" class="soft">Daftar Harga</a>
     </li>

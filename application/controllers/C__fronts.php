@@ -270,7 +270,7 @@ class C__fronts extends CI_Controller {
 		    $this->email->message('Selamat proses bukti transfer dengan kode pembelian '.$tr['kode_pembelian'].' anda berhasil dilakukan! <br>Cek status pemesanan anda di menu <b><a href="'.site_url('order.aspx').'">Cek Pesanan</a></b><br>Bukti transfer akan divalidasi secepatnya oleh pihak kami!Terimakasih.');
 			$this->email->send();
 
-			$this->email->from('tokoonlinegratisciptasoft@gmail.com', gettoko('longname_shop')?gettoko('longname_shop'):gettoko('shortname_shop'));
+			$this->email->from('mrprobojonegoro@gmail.com', gettoko('longname_shop')?gettoko('longname_shop'):gettoko('shortname_shop'));
 		    $this->email->to(gettoko('email_shop'));
 		    $this->email->set_newline("\r\n");
 		    $this->email->subject('Konfirmasi Bukti Transfer');

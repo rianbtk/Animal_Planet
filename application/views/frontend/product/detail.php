@@ -8,7 +8,7 @@
         <div class="col-lg-12">
             <center>
                 <h1 class="title-big text-center section-title-style2">
-                    <span>DETAIL <?php echo strtoupper($get['name_product'])?></span>
+                    <span>DETAIL HEWAN <?php echo strtoupper($get['name_product'])?></span>
                 </h1>
             </center>
             <hr>
@@ -62,7 +62,7 @@
                                 ?>
                                 Berbagi di :
                                 <a 
-                                onclick="window.open('https://www.facebook.com/=<?php echo $url; ?>', '', 'toolbar=0,status=0,width=550,height=400');" 
+                                onclick="window.open('http://www.facebook.com/sharer.php?u=<?php echo $url; ?>', '', 'toolbar=0,status=0,width=550,height=400');" 
                                 target="_parent" 
                                 href="javascript: void(0)" 
                                 class="btn btn-sm" 
@@ -147,7 +147,7 @@
                         </li>
                         <?php endforeach ?>
                     </ul>
-                    <center style="font-weight: 600;">Hewan Berkategori Sama</center>
+                    <center style="font-weight: 600;">Produk Berkategori Sama</center>
                 </div>
             </div>
             <br>

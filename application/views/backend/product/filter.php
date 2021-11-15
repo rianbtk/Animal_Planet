@@ -6,12 +6,12 @@
             <input type="text" placeholder="Masukkan Nama Produk" autocomplete="off" maxlength="30" class="form-control" name="product">
         </div>
     </div>
-    <div class="form-group">
+    <!-- <div class="form-group">
         <label class="col-sm-4">Harga (Rp.)</label>
         <div class="col-sm-8">
             <input type="text" onkeypress="return nomer(this)" onkeyup="return uang(this)" placeholder="Masukkan Harga" autocomplete="off" class="form-control" name="price">
         </div>
-    </div>
+    </div> -->
     <div class="form-group">
         <label class="col-sm-4">Diskon</label>
         <div class="col-sm-8">
@@ -40,7 +40,7 @@
     <div class="form-group">
         <label class="col-sm-4">Berat (gram)</label>
         <div class="col-sm-8">
-            <input type="text" onkeypress="return nomer(this)" placeholder="Masukkan Berat Barang" autocomplete="off" class="form-control" name="weight">
+            <input type="text" onkeypress="return nomer(this)" placeholder="Masukkan Berat Produk" autocomplete="off" class="form-control" name="weight">
         </div>
     </div>
     <div class="form-group">

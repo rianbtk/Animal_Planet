@@ -1,17 +1,17 @@
 <form action="<?php echo site_url('filter_product.aspx') ?>" class="form-horizontal" method="post">
     <?php echo form_hidden('search', '1'); ?>
     <div class="form-group">
-        <label class="col-sm-4">Nama Hewan</label>
+        <label class="col-sm-4">Nama Produk</label>
         <div class="col-sm-8">
-            <input type="text" placeholder="Masukkan Nama Hewan" autocomplete="off" maxlength="30" class="form-control" name="product" value="<?php echo $this->session->userdata('product'); ?>">
+            <input type="text" placeholder="Masukkan Nama Produk" autocomplete="off" maxlength="30" class="form-control" name="product" value="<?php echo $this->session->userdata('product'); ?>">
         </div>
     </div>
-    <div class="form-group">
+    <!-- <div class="form-group">
         <label class="col-sm-4">Harga (Rp.)</label>
         <div class="col-sm-8">
             <input type="text" onkeypress="return nomer(this)" onkeyup="return uang(this)" placeholder="Masukkan Harga" autocomplete="off" class="form-control" name="price" value="<?php echo $this->session->userdata('price'); ?>">
         </div>
-    </div>
+    </div> -->
     <div class="form-group">
         <label class="col-sm-4">Diskon</label>
         <div class="col-sm-8">
@@ -49,7 +49,7 @@
     <div class="form-group">
         <label class="col-sm-4">Berat (gram)</label>
         <div class="col-sm-8">
-            <input type="text" onkeypress="return nomer(this)" placeholder="Masukkan Berat Barang" autocomplete="off" class="form-control" value="<?php echo $this->session->userdata('weight'); ?>" name="weight">
+            <input type="text" onkeypress="return nomer(this)" placeholder="Masukkan Berat Produk" autocomplete="off" class="form-control" value="<?php echo $this->session->userdata('weight'); ?>" name="weight">
         </div>
     </div>
     <div class="form-group">

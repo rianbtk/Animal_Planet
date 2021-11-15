@@ -6,7 +6,7 @@
                 <div class="panel-heading accordion-toggle" style="cursor: pointer;" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                     <h4 class="panel-title">
                         <a>
-                            Filter Hewan
+                            Filter Produk
                         </a>
                     </h4>
                 </div>

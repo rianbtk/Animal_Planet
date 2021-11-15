@@ -16,7 +16,7 @@
                                     </div>
                                     <div class="state-value">
                                         <div class="value"><?php echo $product ?></div>
-                                        <div class="title">Jumlah Hewan Aktif</div>
+                                        <div class="title">Jumlah Produk Aktif</div>
                                     </div>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@
                                     </div>
                                     <div class="state-value">
                                         <div class="value"><?php echo $category ?></div>
-                                        <div class="title">Jumlah Kategori Hewan Aktif</div>
+                                        <div class="title">Jumlah Kategori Aktif</div>
                                     </div>
                                 </div>
                             </div>

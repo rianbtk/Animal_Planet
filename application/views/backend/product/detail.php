@@ -3,7 +3,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-                <h4 class="modal-title">Detail Data Produk <?php echo $get['name_product'] ?></h4>
+                <h4 class="modal-title">Detail Produk <?php echo $get['name_product'] ?></h4>
             </div>
             <div class="modal-body" style="height: 450px;overflow-y: scroll;">
                 <table class="table table-bordered">

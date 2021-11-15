@@ -4,18 +4,18 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-                <h4 class="modal-title">Edit Data Hewan <?php echo $get['name_product'] ?></h4>
+                <h4 class="modal-title">Edit Data Produk <?php echo $get['name_product'] ?></h4>
             </div>
             <?php echo form_open_multipart('update_product.aspx/'.$get['id_product'],'class="form-horizontal"'); ?>
                 <div class="modal-body" style="height: 450px;overflow-y: scroll;">
                     <div class="form-group">
-                        <label class="col-sm-4">Nama Hewan</label>
-                        <div class="col-sm-8"><input type="text" required value="<?php echo $get['name_product'] ?>" placeholder="Masukkan Nama Hewan" autocomplete="off" maxlength="30" class="form-control" name="product"></div>
+                        <label class="col-sm-4">Nama Produk</label>
+                        <div class="col-sm-8"><input type="text" required value="<?php echo $get['name_product'] ?>" placeholder="Masukkan Nama Produk" autocomplete="off" maxlength="30" class="form-control" name="product"></div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-4">Keterangan Hewan</label>
+                        <label class="col-sm-4">Keterangan Produk</label>
                         <div class="col-sm-8">
-                            <textarea name="information" rows="5" placeholder="Masukkan Keterangan Hewan" required class="form-control"><?php echo trim($get['information_product']) ?></textarea>
+                            <textarea name="information" rows="5" placeholder="Masukkan Keterangan Produk" required class="form-control"><?php echo trim($get['information_product']) ?></textarea>
                         </div>
                     </div>
                     <div class="form-group">
@@ -86,13 +86,13 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-4">Gambar Hewan</label>
+                        <label class="col-sm-4">Gambar Produk</label>
                         <div class="col-sm-8">
                             <img src="<?php echo base_url('uploads/'.$get['image_product']) ?>" width="185px" height="280px;">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-4">Gambar Hewan Baru (Opsional)</label>
+                        <label class="col-sm-4">Gambar Produk Baru (Opsional)</label>
                         <div class="col-sm-8">
                             <input type="file"  autocomplete="off" accept="image/jpeg,image/png" class="form-control" name="picture">
                         </div>

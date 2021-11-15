@@ -41,7 +41,7 @@
     <div style="margin-left: 20px;margin-right: 20px;">
         <h3>
             <br>
-            <b>HEWAN TERBARU</b>
+            <b>PRODUK TERBARU</b>
             <a id="nextBrand" class="link pull-right carousel-nav">
                 <i class="fa fa-angle-right"></i>
             </a>

@@ -8,7 +8,7 @@
         <div class="col-lg-12">
             <center>
                 <h1 class="title-big text-center section-title-style2">
-                    <span>DETAIL HEWAN <?php echo strtoupper($get['name_product'])?></span>
+                    <span>DETAIL PRODUK <?php echo strtoupper($get['name_product'])?></span>
                 </h1>
             </center>
             <hr>

@@ -50,7 +50,7 @@
                 <i class="fa fa-check"></i> Login
             </button>
             <br>
-            <center><a href="<?php echo site_url() ?>"> &laquo; Kembali</a> </center>
+            <center><a class="btn btn-lg btn-block btn-success" href="<?php echo site_url() ?>">Kembali</a> </center>
             <center>  &copy; <?php echo date('Y') ?> <?php echo gettoko('shortname_shop') ?></center>
         </div>
     </form>

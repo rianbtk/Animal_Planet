@@ -38,7 +38,7 @@ function select($i,$j)
 function akses($menu)
 {
 	$ci =& get_instance();
-	$n=akses_modul($menu,1);
+	$n=akses($menu,1);
 	if($n!=1)
 	{
 		$ci->session->set_flashdata('error','Anda Tidak Memiliki Akses Halaman Ini');

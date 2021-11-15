@@ -28,6 +28,7 @@
             paceOptions = {
                 elements: true
             };
+
         </script>
         <style>
             
@@ -140,13 +141,15 @@
                    ?>
                </span>
                 <div class="navbar-collapse collapse">
-                    <?php include "menu_user.php"; ?>
-                    <span id="keranjang , right">
-                    <?php include "cart_mobile.php";?>
-                    <?php include "search.php"; ?>
-                </span>
+                    <?php include "menu.php"; ?>
+                    <span id="keranjang">
+                        <?php 
+                            include "cart_mobile.php";
+                        ?>
+                    </span>
                 </div>
-        </div>
+            </div>
+            <?php include "search.php"; ?>
         </div>
         <?php 
             if (isset($slider_yes)) 

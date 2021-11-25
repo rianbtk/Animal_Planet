@@ -90,18 +90,6 @@
                     </ul>
                 </div>
                 <div style="clear:both" class="hide visible-xs"></div>
-                <div class="col-lg-3">
-                    <h3>Rekening Bank</h3>
-                    <ul>
-                    <?php $no=0; foreach($bank as $row): $no++ ?>
-                        <li class="supportLi">
-                            <img src="<?php echo base_url('assets/images/bank/'.$row->logo_bank) ?>" width="50px" alt="">
-                            &nbsp;&nbsp; <?php echo $row->number ?> <br> [<?php echo $row->name ?>]
-                        </li>
-                    <?php endforeach;?>
-                    </ul>
-                </div>
-                <div style="clear:both" class="hide visible-xs"></div>
             </div>
         </div>
     </div>
